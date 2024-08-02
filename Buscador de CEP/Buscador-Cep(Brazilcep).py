@@ -3,7 +3,7 @@ import brazilcep
 
 #brazilcep.get_address_from_cep("[Digite o cep]").
 #aqui vamos atribuir as informações na variavel "endereco".
-#coloquei o cep da minha cidade como exemplo.
+#coloquei o cep da capital do Brasil como exemplo.
 endereco = brazilcep.get_address_from_cep("70070600")
 
 #colando especificamente as informações cidade e estado nas respectivas variaveis.
